@@ -7,7 +7,7 @@ echo "======================================================"
 # 1. System aktualisieren & uStreamer installieren
 echo "--> Installiere uStreamer und V4L-Tools..."
 sudo apt update
-sudo apt install ustreamer v4l-utils -y
+sudo apt install ustreamer v4l-utils qv4l2 -y
 
 # 2. Blockierenden Motion-Dienst deaktivieren
 echo "--> Entferne blockierenden Motion-Dienst aus dem System..."
