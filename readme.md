@@ -11,4 +11,4 @@ Das Skript kümmert sich vollautomatisch darum, ältere blockierende Dienste (wi
 Öffne einfach das Terminal auf dem Raspberry Pi, an dem die Kamera per USB angeschlossen ist, und füge diesen **einen einzigen Befehl** ein:
 
 ```bash
-git clone [https://github.com/DreDayyy92/bahn-cam.git](https://github.com/DreDayyy92/bahn-cam.git) && cd bahn-cam && chmod +x install.sh && ./install.sh
+git clone https://github.com/DreDayyy92/bahn-cam.git && cd bahn-cam && chmod +x install.sh && ./install.sh
