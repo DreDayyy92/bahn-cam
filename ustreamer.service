@@ -1,0 +1,11 @@
+[Unit]
+Description=Kamera Bahn 1
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/ustreamer --device=/dev/video0 --host=0.0.0.0 --port=9000 --format=mjpeg --resolution=3264x2448
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
